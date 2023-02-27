@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Local Bus Online Booking</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="java.js"></script>
+</head>
+<body>
+	<div class="header">
+		<h1>Local Bus Online Booking</h1>
+		<p>Book your local bus tickets online!</p>
+	</div>
+
+	<div class="container">
+		<form>
+			<h2>Search for a Bus</h2>
+			<label for="origin">Origin:</label>
+			<input type="text" id="origin" name="origin" placeholder="Enter origin">
+
+			<label for="destination">Destination:</label>
+			<input type="text" id="destination" name="destination" placeholder="Enter destination">
+
+			<label for="date">Travel Date:</label>
+			<input type="date" id="date" name="date" placeholder="Select date">
+
+			<input type="submit" value="Search">
+		</form>
+	</div>
+
+	<div class="results">
+		<h2>Available Buses</h2>
+		<table>
+			<tr>
+				<th>Bus Operator</th>
+				<th>Origin</th>
+				<th>Destination</th>
+				<th>Departure Time</th>
+				<th>Arrival Time</th>
+				<th>Price</th>
+				<th>Book Now</th>
+			</tr>
+			<tr>
+				<td>ABC Bus Company</td>
+				<td>Durgapur</td>
+				<td>Bankura</td>
+				<td>08:00 AM</td>
+				<td>12:00 PM</td>
+				<td>$25</td>
+				<td><a href="book.html">Book Now</a></td>
+			</tr>
+			<tr>
+				<td>XYZ Bus Company</td>
+				<td>Kolkata</td>
+				<td>Bolpur</td>
+				<td>10:00 AM</td>
+				<td>01:00 PM</td>
+				<td>$20</td>
+				<td><a href="book.html">Book Now</a></td>
+			</tr>
+		</table>
+	</div>
+    <footer>
+        <div class="footer">
+            <p>Local Bus Online Booking &copy; 2023 & design by soumya</p>
+        </div>
+    
+    </footer>
+	
+</body>
+</html>

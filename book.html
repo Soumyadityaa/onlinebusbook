@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book a Local Bus</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="book.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Book a Local Bus</h2>
+
+  <div class="alert alert-success" style="display:none"></div>
+  <div class="alert alert-danger" style="display:none"></div>
+
+  <form>
+    <div class="form-group">
+      <label for="bus_number">Bus Number:</label>
+      <input type="text" class="form-control" id="bus_number" readonly>
+    </div>
+    <div class="form-group">
+      <label for="departure_time">Departure Time:</label>
+      <input type="text" class="form-control" id="departure_time" readonly>
+    </div>
+    <div class="form-group">
+      <label for="arrival_time">Arrival Time:</label>
+      <input type="text" class="form-control" id="arrival_time" readonly>
+    </div>
+    <div class="form-group">
+      <label for="origin">Origin:</label>
+      <input type="text" class="form-control" id="origin" readonly>
+    </div>
+    <div class="form-group">
+      <label for="destination">Destination:</label>
+      <input type="text" class="form-control" id="destination" readonly>
+    </div>
+    <div class="form-group">
+      <label for="fare">Fare:</label>
+      <input type="text" class="form-control" id="fare" readonly>
+    </div>
+    <a href="index.html"><button type="submit" class="btn btn-default">Book Now</button></a>
+  </form>
+</div>
+
+<br><br><br><br>
+<a href="index.html">prev page</a>
+<footer>
+    <div class="footer">
+        <p>Local Bus Online Booking &copy; 2023 & design by soumya</p>
+    </div>
+
+</footer>
+</body>
+</html>
